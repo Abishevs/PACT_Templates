@@ -1,0 +1,36 @@
+\documentclass[swedish, a4paper,12pt]{article} % Change to report, book, etc., as needed
+\input{includes/preamble} % Include package settingsmain.te
+
+% Title and author
+% \title{TITLE}
+% \author{Eduards Abisevs}
+% \date{\today}
+
+\begin{document}
+% \maketitle
+\input{includes/tilepage.tex}
+
+\tableofcontents 
+\newpage
+
+% \chapter{Introduction}
+\input{sections/intro}
+
+% \chapter{Methods}
+\input{sections/methods}
+
+% \chapter{Conclusion}
+\input{sections/conclusion}
+
+% Bibliography
+\newpage
+\bibliography{bibliography}
+
+% Appendices
+\newpage
+\appendix
+\section{Additional Information}
+\input{sections/apendix_a}
+
+\end{document}
+
