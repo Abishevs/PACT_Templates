@@ -1,4 +1,4 @@
-# Project Title
+# {{ project_name }} 
 
 A short description about the project.
 
